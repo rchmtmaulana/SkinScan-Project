@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Skin Scan</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="search_text">Looking for medicine?</string>
+    <string name="hi">Hi,</string>
+    <string name="desc_name">Lets Solve Your Problem Desease !</string>
+    <string name="title_type">General Of Type Skin Desease</string>
+    <string name="home">Home</string>
+    <string name="article">Article</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
 </resources>
