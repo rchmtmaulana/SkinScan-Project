@@ -13,6 +13,12 @@
         android:theme="@style/Theme.SkinScan"
         tools:targetApi="31">
         <activity
+            android:name=".register.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.main.HomeActivity"
             android:exported="true">
             <intent-filter>

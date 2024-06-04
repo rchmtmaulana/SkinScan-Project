@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -13,7 +12,8 @@
         android:layout_height="35dp"
         android:src="@drawable/setting"
         android:layout_marginStart="360dp"
-        android:layout_marginTop="10dp"/>\
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/desc_setting" />
 
 
 
@@ -27,13 +27,14 @@
         android:fontFamily="@font/roboto_medium"
         android:text="@string/app_name"
         android:textSize="20sp"
-        android:textColor="@color/blue">
+        android:textColor="@color/primaryColor">
 
     </TextView>
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Home_logo" />
 
     <SearchView
         android:id="@+id/sv_main"
@@ -49,11 +50,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
         android:layout_margin="30dp"
         android:textSize="25sp"
         android:text="@string/hi"
-        android:textColor="@color/blue"
+        android:textColor="@color/primaryColor"
         android:fontFamily="@font/roboto_medium"
 
         android:layout_below="@id/sv_main"/>
@@ -75,7 +76,7 @@
             android:paddingStart="40dp"
             android:fontFamily="@font/roboto_medium"
             android:textStyle="bold"
-            android:textColor="@color/blue"
+            android:textColor="@color/primaryColor"
             android:textSize="25sp"
             tools:text="@tools:sample/full_names" />
 
@@ -92,7 +93,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:src="@drawable/img_doctor"/>
+            android:src="@drawable/img_doctor"
+            android:contentDescription="@string/home_img" />
     </LinearLayout>
 
     <RelativeLayout
@@ -108,7 +110,7 @@
             android:text="@string/title_type"
             android:textSize="17sp"
             android:fontFamily="@font/roboto_medium"
-            android:textColor="@color/blue"
+            android:textColor="@color/primaryColor"
             android:gravity="center"/>
 
         <ImageView
@@ -152,7 +154,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="48dp"
                 android:layout_marginStart="49dp"
-                android:textColor="@color/white"
+                android:textColor="@color/thirdColor"
                 android:textSize="12sp"
                 android:fontFamily="@font/roboto_medium"
                 android:text="@string/home">
@@ -167,7 +169,7 @@
                 android:src="@drawable/article"
                 android:textSize="12sp"
                 android:fontFamily="@font/roboto_medium"
-                android:textColor="@color/white"
+                android:textColor="@color/thirdColor"
                 android:text="@string/article">
             </TextView>
 
@@ -178,7 +180,7 @@
                 android:layout_marginTop="48dp"
                 android:src="@drawable/history"
                 android:layout_marginStart="123dp"
-                android:textColor="@color/white"
+                android:textColor="@color/thirdColor"
                 android:textSize="12sp"
                 android:fontFamily="@font/roboto_medium"
                 android:text="@string/history">
@@ -190,7 +192,7 @@
                 android:layout_marginTop="48dp"
                 android:layout_marginStart="24dp"
                 android:src="@drawable/profile"
-                android:textColor="@color/white"
+                android:textColor="@color/thirdColor"
                 android:fontFamily="@font/roboto_medium"
                 android:textSize="12sp"
                 android:text="@string/profile">
@@ -210,7 +212,8 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="19dp"
                 android:layout_marginStart="50dp"
-                android:src="@drawable/home">
+                android:src="@drawable/home"
+                android:contentDescription="@string/ic_home">
 
             </ImageView>
 
@@ -219,7 +222,8 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="19dp"
                 android:layout_marginStart="30dp"
-                android:src="@drawable/article">
+                android:src="@drawable/article"
+                android:contentDescription="@string/ic_articlehome">
             </ImageView>
 
 
@@ -248,13 +252,15 @@
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/oval"
-        android:layout_marginTop="650dp"/>
+        android:layout_marginTop="650dp"
+        android:contentDescription="@string/bg_cam" />
     <ImageView
         android:layout_width="40dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:src="@drawable/camera"
-        android:layout_marginTop="665dp">
+        android:layout_marginTop="665dp"
+        android:contentDescription="@string/ic_cam">
 
     </ImageView>
 

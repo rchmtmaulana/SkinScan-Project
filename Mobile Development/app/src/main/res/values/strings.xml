@@ -12,4 +12,21 @@
     <string name="article">Article</string>
     <string name="history">History</string>
     <string name="profile">Profile</string>
+    <string name="hint_pw">Enter your Password</string>
+    <string name="hint_gmail">Enter your Email</string>
+    <string name="hint_username">Enter your Username</string>
+    <string name="btn_login">Login</string>
+    <string name="desc_setting">Setting</string>
+    <string name="Home_logo">logo</string>
+    <string name="home_img">img_doctor\n</string>
+    <string name="ic_home">ic_home</string>
+    <string name="ic_articleHome">ic_articlehome</string>
+    <string name="bg_cam">bg_cam</string>
+    <string name="ic_cam">ic_cam</string>
+    <string name="SignIn">Sign In</string>
+    <string name="txt_decisionLog">Or Sign In With</string>
+    <string name="txt_decisionReg">Or Sign Up With</string>
+    <string name="desc_login">Don\'t have an Account yet?</string>
+    <string name="desc_regis">Already have an Account yet?</string>
+    <string name="SignUp">Sign Up</string>
 </resources>
