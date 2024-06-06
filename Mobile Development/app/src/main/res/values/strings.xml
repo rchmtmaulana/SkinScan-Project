@@ -30,4 +30,10 @@
     <string name="desc_regis">Already have an Account yet?</string>
     <string name="SignUp">Sign Up</string>
     <string name="desc_splashScreen">Make Your Skin Healthy And Shiny</string>
+    <string name="img_detail">img_detail</string>
+    <string name="Analyze">Scan This !</string>
+    <string name="result_of_scan">Result of Scan</string>
+    <string name="diagnosed">Diagnosed</string>
+    <string name="drug_recommendation">Drug Recommendation</string>
+    <string name="disease_prevention">Disease Prevention</string>
 </resources>
