@@ -29,6 +29,4 @@
     <string name="desc_login">Don\'t have an Account yet?</string>
     <string name="desc_regis">Already have an Account yet?</string>
     <string name="SignUp">Sign Up</string>
-    <string name="failed_to_initialize">Image classifier failed to initialize. See error log for details</string>
-    <string name="label">Nama penyakit : %s</string>
 </resources>
