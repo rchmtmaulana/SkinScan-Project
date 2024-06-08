@@ -1,4 +1,4 @@
-package com.bangkit.skinscan.login
+package com.bangkit.skinscan.view.login
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

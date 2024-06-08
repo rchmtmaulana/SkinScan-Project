@@ -1,4 +1,4 @@
-package com.bangkit.skinscan.register
+package com.bangkit.skinscan.view.register
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
