@@ -1,4 +1,4 @@
-# Skinscan - ML
+# SkinScan - ML
 
 
 ## Table of Contents
